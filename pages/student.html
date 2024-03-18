@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/student.css">
+</head>
+<body>
+    <header>
+        <h1 id="titouan"></h1>
+    </header>
+    <main>
+        <a id="retourMain" href="../index.html">retour</a>
+        <div id="addHere-zone">
+            <button id="addHere" onclick="showHiddenAdd()">AJOUTER UN ELEVE</button>
+        </div>
+        <div id="hidden" class="hidden">
+            <div id="dFlex">
+            <section id="fromAddStudent">
+                <form>
+                    <div>
+                        <label for="firstName">Nom</label>
+                        <input id="firstName" type="text">
+                    </div>
+                    <div>
+                        <label for="lastName">Prenom</label>
+                        <input id="lastName" type="text">
+                    </div>
+                    <div>
+                        <label for="age" id="labAge">Age</label>
+                        <input id="age" type="number">
+                    </div>
+                </form>
+                <button id="addStudent" onclick="addStudent()">Valider</button>
+                <button id="hideX" onclick="hideHiddenAdd()">Terminer</button>
+            </section>
+            </div>
+        </div>
+        <section id="block">
+            <div id="studentContainer">
+            </div>
+        </section>
+
+        <script src="../assets/js/student.js"></script>
+    </main>
+    <footer>
+        <P>Copyright homme sans coeur</P>
+    </footer>
+</body>
+
+</html>

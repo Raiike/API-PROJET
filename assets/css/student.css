@@ -1,0 +1,189 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    border: solid 2px black;
+    display: flex;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    border: solid 2px black;
+    height: fit-content;
+    margin: 0;
+}
+
+#studentContainer {
+    display: flex;
+    justify-content: space-evenly;
+    ;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 60%;
+    margin-top: 35px;
+}
+
+#block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.student {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: solid 1px black;
+    height: 140px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(199, 211, 210);
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 3px 3px 15px 3px #000000;
+}
+
+.kick {
+    background-color: rgb(231, 121, 121);
+    text-align: center;
+    cursor: pointer;
+    border: solid 1px black;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+.settup {
+    border: solid 1px black;
+    text-decoration: none;
+    text-align: center;
+    color: blue;
+    background-color: rgb(138, 138, 223);
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 17px;
+}
+
+.divButton {
+    display: flex;
+}
+
+p {
+    font-size: 30px;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.titreStudent {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+#addHere-zone {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#addHere {
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#addHere:hover {
+    color: greenyellow;
+}
+
+#block {
+    width: fit-content;
+}
+
+#retourMain {
+    text-decoration: none;
+    border: solid 1px black;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    width: fit-content;
+    color: rgb(160, 160, 229);
+    margin-left: 3Px;
+    margin-top: 3Px;
+}
+#retourMain:hover{
+    color: blue;
+}
+#fromAddStudent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    border: solid black 1Px;
+    width: fit-content;
+    padding: 60px;
+}
+#fromAddStudent input{
+    width: 140px;
+    height: 18px;
+}
+#dFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#addStudent{
+        color: green;
+        background-color: rgb(216, 233, 214);
+        border: solid 1px black;
+        height: 30px;
+        width: 100px;
+        cursor: pointer;
+}
+#addStudent:hover{
+    color: rgb(115, 255, 0);
+}
+#hideX{
+    color: rgb(219, 107, 107);
+    background-color: rgb(240, 229, 229);
+    border: solid 1px black;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+#hideX:hover{
+    color: rgba(255, 0, 0, 0.87);
+}

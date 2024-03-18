@@ -1,0 +1,211 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: rgb(255, 255, 255)  ;
+    border: solid 2px black;
+    height: fit-content;
+    margin: 0;
+}
+h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 60px;
+}
+header{
+    border: solid 1px black;
+    padding: 10px;
+}
+.buttonBox{
+    display: flex;
+    justify-content: space-b;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    width: fit-content;
+    gap: 10px;
+}
+h2{
+    text-align: center;
+}
+.promosContainer h2{
+    font-size: 65px;
+}
+.promosContainer{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.promoTitle{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border: solid black 1px;
+    padding: 13px;
+    background-color: rgb(199, 211, 210);
+    border-radius: 7px;
+    height: 270px;
+    width: fit-content;
+    cursor: pointer;
+    font-size: 48px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 3px 3px 15px 3px #000000;
+}
+.promoTitle:hover{
+    color: white;
+}
+.deleteButton{
+    background-color: rgb(231, 121, 121);
+    cursor: pointer;
+    border: solid 1px black;
+    color: rgb(255, 0, 0);
+    cursor: pointer; 
+    padding: 20px;
+    border-radius: 20px;
+    min-width: 230px;
+    min-height: 18px;
+}
+.deleteButton:hover{
+    color: white;
+}
+.detailsButton{
+    padding: 20px;
+    border-radius: 20px;
+    border: solid 1px black;
+    min-width: 190px;
+    min-height: 18px;
+    text-decoration: none;
+    text-align: center;
+    color: blue;
+    background-color: rgb(138, 138, 223);
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.detailsButton:hover{
+    color: white;
+}
+#formAddPromo{
+    border: solid 1px black;
+    width: 300px;
+    padding: 35px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 19px;
+}
+#valid{
+    width: 70px;
+    padding: 6px;
+}
+#formAddPromoCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.hidden{
+    display: none !important;
+}
+.addHere-zone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+#addHere{
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#addHere:hover{
+    color: rgb(24, 241, 24);
+}
+#name-form{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#name-form input{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+#date-form input{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+#endDate-form input{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+#date-form{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#endDate-form{
+    font-size: 25px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#valid{
+    color: green;
+    background-color: rgb(216, 233, 214);
+    border: solid 1px black;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+#valid:hover{
+    color: rgb(115, 255, 0);
+}
+#hide{
+    color: rgb(219, 107, 107);
+    background-color: rgb(240, 229, 229);
+    border: solid 1px black;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+#hide:hover{
+    color: rgba(255, 0, 0, 0.87);
+}
+.modifyPromo{
+    background-color: rgb(161, 204, 161);
+    padding: 20px;
+    border-radius: 20px;
+    border: solid 1px black;
+    min-width: 190px;
+    min-height: 18px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.modifyPromo:hover{
+    color: white;
+}
+.newDiv{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.newDiv input{
+    width: 280px;
+}

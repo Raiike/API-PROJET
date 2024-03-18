@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Promos 2024 - 2025</h1>
+    </header>
+    <main>
+        <div class="addHere-zone">
+            <button id="addHere" onclick="showAdd()">AJOUTER UNE PROMO</button>
+        </div>
+        <div id="hidden" class="hidden">
+            <div id="formAddPromoCenter">
+                <section id="formAddPromo">
+                    <form>
+                        <div id="name-form">
+                            <label for="name">Nom de la promo</label>
+                            <input id="name" type="text">
+                        </div>
+                        <div id="date-form">
+                            <label for="startDate">Date de début de la promo</label>
+                            <input id="startDate" type="date">
+                        </div>
+                        <div id="endDate-form">
+                            <label for="endDate">Date de fin de la promo</label>
+                            <input id="endDate" type="date">
+                        </div>
+                    </form>
+                    <button id="valid" onclick="addPromo()">Valider</button>
+                    <button id="hide" onclick="hideAdd()">Terminer</button>
+                </section>
+            </div>
+            </div>
+        <section id="promosContainer">
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
